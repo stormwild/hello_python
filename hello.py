@@ -51,6 +51,27 @@ print(sorted(cars))
 
 print(cars)
 
-print(cars.reverse())
+cars.reverse()
+print(cars)
+cars.reverse()
+print(cars)
 
 print(len(cars))
+
+print(cars[-1])
+
+print("------------------")
+
+for car in cars:
+    print(car)
+    # cars.reverse()
+    
+print(cars)
+
+numbers = list(range(1, 6))
+
+print(numbers)
+
+for value in range(1, 6):
+    print(value)
+    
